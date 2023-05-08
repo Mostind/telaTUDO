@@ -22,16 +22,16 @@ body{
     justify-content: space-between;
 }
 
-.tituloBot > button {
-    border: none;
-    height: fit-content;
-}
-
 .tituloBot > h3 {
     font-family: 'Kumar One', cursive;
     color: var(--CorTitu);
     font-size: 23px;
     padding-left: 92px;
+}
+
+button.botTit {
+    border: none;
+    height: fit-content;
 }
 
 .botTit {
@@ -49,6 +49,7 @@ body{
     padding: 10px;
 }
 
+
 /* REAÇÕES DE BOTÕES */
 .botTit:hover{
     background-color: #d1d1d1;
@@ -64,8 +65,7 @@ body{
     align-content: space-around;
     justify-content: space-between;
     height: auto;
-    width: 11%;
-    margin: 0px 36%;
+    width: 70%;
 }
 
 .sub-grupo{
@@ -80,13 +80,13 @@ body{
     align-content: space-around;
     justify-content: space-between;
     
-    margin: 12px 27%;
-    padding: 27px 180px;
+    margin: 12px 0px;
+    padding: 27px 81px 27px 8px;
     
-    width: 32%;
+    width: 93%;
 
     font-family: 'Inter', sans-serif;
-    font-size: 19px;
+    font-size: 13px;
     background-color: var(--Caixatab);
     color: var(--CorFonte);
     box-shadow: 0px 1px 3px #a9a8a8;
@@ -102,7 +102,7 @@ body{
     border: none;
     background: 0px;
     color: var(--CorFonte);
-    font-size: 20px;
+    font-size: 13px;
 }
 
 a.sub-grupo2 {
