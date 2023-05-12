@@ -44,7 +44,7 @@ session_start();
         <a href="cadastroproduto.php" class="botTit">Novo Produto</a>
     </div>
     
-    <table>
+  
         <div class="grupo">
             <div class="sub-grupo">idProd.</div>
             <div class="sub-grupo">Nome</div>
